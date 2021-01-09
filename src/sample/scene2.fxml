@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" styleClass="bodybg" stylesheets="@background.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scene2">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="275.0" layoutY="100.0">
+         <image>
+            <Image url="@Images/pp1.png" />
+         </image>
+      </ImageView>
+      <JFXTextField focusColor="WHITE" layoutX="249.0" layoutY="289.0" prefColumnCount="18" promptText="username" styleClass="text-field" stylesheets="@background.css" unFocusColor="WHITE" />
+      <ImageView accessibleRole="BUTTON" depthTest="ENABLE" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" onContextMenuRequested="#mainpage" onMouseClicked="#mainpage" onMouseDragEntered="#mainpage" onMouseDragged="#mainpage" onMousePressed="#mainpage">
+         <image>
+            <Image url="@Images/back.png" />
+         </image>
+      </ImageView>
+      <JFXPasswordField focusColor="WHITE" layoutX="249.0" layoutY="342.0" prefColumnCount="18" promptText="password" unFocusColor="WHITE" />
+   </children>
+</AnchorPane>

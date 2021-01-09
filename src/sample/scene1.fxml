@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" styleClass="bodybg" stylesheets="@background.css">
+         <children>
+            <Separator layoutX="350.0" layoutY="100.0" orientation="VERTICAL" prefHeight="300.0" />
+            <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="170.0" layoutY="275.0" onAction="#loginpage" onMouseClicked="#loginpage" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="470.0" layoutY="275.0" onAction="#signuppage" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <ImageView accessibleRole="BUTTON" depthTest="ENABLE" fitHeight="100.0" fitWidth="100.0" layoutX="150.0" layoutY="170.0" onMouseClicked="#loginpage1" onMousePressed="#loginpage">
+               <image>
+                  <Image url="@Images/pp1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="460.0" layoutY="170.0" onMouseClicked="#signuppage">
+               <image>
+                  <Image url="@Images/pp2.png" />
+               </image>
+            </ImageView>
+            <ImageView accessibleRole="BUTTON" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0">
+               <image>
+                  <Image url="@Images/back.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

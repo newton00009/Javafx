@@ -1,0 +1,11 @@
+.bodybg{
+    -fx-background-image: url('bb1.jpg');
+    -fx-background-size: 100% 100%;
+}
+.text-field {
+    -fx-prompt-text-fill: #ffffff;
+}
+.buttimg{
+    -fx-background-image: url('pp1.png');
+    -fx-background-size: 100% 100%;
+}
